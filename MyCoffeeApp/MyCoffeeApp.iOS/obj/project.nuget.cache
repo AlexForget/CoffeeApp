@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "gQdfczMiawm9j9WAfxzcTBOFR8Pv7p66a8AHdrCSnPP5C0IFibe0lBnS0Oj3T2rTSvGaKkW9T++C7wc31prLPQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\alexa\\Documents\\ProjetC#\\Xamarin\\CoffeeApp\\MyCoffeeApp\\MyCoffeeApp.iOS\\MyCoffeeApp.iOS.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\alexa\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Users\\alexa\\.nuget\\packages\\xamarin.essentials\\1.7.0\\xamarin.essentials.1.7.0.nupkg.sha512",
+    "C:\\Users\\alexa\\.nuget\\packages\\xamarin.forms\\5.0.0.2196\\xamarin.forms.5.0.0.2196.nupkg.sha512"
+  ],
+  "logs": []
+}
