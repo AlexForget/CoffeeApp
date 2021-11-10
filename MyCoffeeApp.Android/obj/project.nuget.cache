@@ -1,10 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "M+sANvrJiHFQnJunm2wZvv0uSrb2C6tWUTi/3klr5SzfKCHjQehG8BGK5xuxOdQMlQ8ZbMo745p5wV18mvKdAw==",
+  "dgSpecHash": "W2xZn0b804JgrXkmlc1RzF82aOr1nUpHIFOzmQdVzlUHKYTaEewcLbw8TyE/9T7XKyO2nRLz5u35a0ZWZRGpRg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\alexa\\Documents\\ProjetC#\\Xamarin\\CoffeeApp\\MyCoffeeApp\\MyCoffeeApp.Android\\MyCoffeeApp.Android.csproj",
+  "projectFilePath": "C:\\Users\\alexa\\Documents\\ProjetC#\\Xamarin\\CoffeeApp\\MyCoffeeApp.Android\\MyCoffeeApp.Android.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\alexa\\.nuget\\packages\\refractored.mvvmhelpers\\1.6.2\\refractored.mvvmhelpers.1.6.2.nupkg.sha512",
     "C:\\Users\\alexa\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Users\\alexa\\.nuget\\packages\\system.valuetuple\\4.5.0\\system.valuetuple.4.5.0.nupkg.sha512",
     "C:\\Users\\alexa\\.nuget\\packages\\xamarin.androidx.activity\\1.2.4.1\\xamarin.androidx.activity.1.2.4.1.nupkg.sha512",
     "C:\\Users\\alexa\\.nuget\\packages\\xamarin.androidx.annotation\\1.2.0.1\\xamarin.androidx.annotation.1.2.0.1.nupkg.sha512",
     "C:\\Users\\alexa\\.nuget\\packages\\xamarin.androidx.annotation.experimental\\1.1.0.1\\xamarin.androidx.annotation.experimental.1.1.0.1.nupkg.sha512",

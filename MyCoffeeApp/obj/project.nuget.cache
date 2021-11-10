@@ -1,12 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "mvUSZ2ohXy0hwjyv9DSR2/lLTeNaPxAMqhGd8AQeW++J84Yz1AxK7IaWKxaCNWuyJtgJdqHaoNZAZmX7S92lQg==",
+  "dgSpecHash": "zOk3/dRqc1HVFfbXNwFiBKhYnCxE1dxM+0BqgFZgoOTk1zZBiOszdInseUDHpkIH9EWgDIfIyyQ4cXKF4M75YA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\alexa\\Documents\\ProjetC#\\Xamarin\\CoffeeApp\\MyCoffeeApp\\MyCoffeeApp\\MyCoffeeApp.csproj",
+  "projectFilePath": "C:\\Users\\alexa\\Documents\\ProjetC#\\Xamarin\\CoffeeApp\\MyCoffeeApp\\MyCoffeeApp.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\alexa\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Users\\alexa\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
+    "C:\\Users\\alexa\\.nuget\\packages\\refractored.mvvmhelpers\\1.6.2\\refractored.mvvmhelpers.1.6.2.nupkg.sha512",
     "C:\\Users\\alexa\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Users\\alexa\\.nuget\\packages\\system.valuetuple\\4.5.0\\system.valuetuple.4.5.0.nupkg.sha512",
     "C:\\Users\\alexa\\.nuget\\packages\\xamarin.essentials\\1.7.0\\xamarin.essentials.1.7.0.nupkg.sha512",
     "C:\\Users\\alexa\\.nuget\\packages\\xamarin.forms\\5.0.0.2196\\xamarin.forms.5.0.0.2196.nupkg.sha512"
   ],

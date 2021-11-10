@@ -4,6 +4,7 @@ public class MonoPackageManager_Resources {
 		/* We need to ensure that "MyCoffeeApp.Android.dll" comes first in this list. */
 		"MyCoffeeApp.Android.dll",
 		"FormsViewGroup.dll",
+		"MvvmHelpers.dll",
 		"MyCoffeeApp.dll",
 		"Xamarin.AndroidX.Activity.dll",
 		"Xamarin.AndroidX.Annotation.dll",
