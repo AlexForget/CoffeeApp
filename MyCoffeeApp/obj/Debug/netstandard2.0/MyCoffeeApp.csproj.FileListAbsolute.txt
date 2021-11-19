@@ -46,3 +46,5 @@ C:\Users\alexa\Documents\ProjetC#\Xamarin\CoffeeApp\MyCoffeeApp\obj\Debug\netsta
 C:\Users\alexa\Documents\ProjetC#\Xamarin\CoffeeApp\MyCoffeeApp\obj\Debug\netstandard2.0\MyCoffeeApp.dll
 C:\Users\alexa\Documents\ProjetC#\Xamarin\CoffeeApp\MyCoffeeApp\obj\Debug\netstandard2.0\ref\MyCoffeeApp.dll
 C:\Users\alexa\Documents\ProjetC#\Xamarin\CoffeeApp\MyCoffeeApp\obj\Debug\netstandard2.0\MyCoffeeApp.pdb
+C:\Users\alexa\Documents\ProjetC#\Xamarin\CoffeeApp\MyCoffeeApp\obj\Debug\netstandard2.0\Views\CoffeeEquipmentCVPage.xaml.g.cs
+C:\Users\alexa\Documents\ProjetC#\Xamarin\CoffeeApp\MyCoffeeApp\obj\Debug\netstandard2.0\Views\MyStoredCoffeePage.xaml.g.cs

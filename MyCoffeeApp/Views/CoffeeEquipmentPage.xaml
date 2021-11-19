@@ -6,16 +6,21 @@ xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:model="clr-namespace:MyCoffeeApp.Models"
              x:DataType="viewmodels:CoffeeEquipmentViewModel"
              x:Class="MyCoffeeApp.Views.CoffeeEquipmentPage"
-             >
+             x:Name="CoffeePage"
+             xmlns:xct="http://xamarin.com/schemas/2020/toolkit">
 
     <ContentPage.BindingContext>
         <viewmodels:CoffeeEquipmentViewModel/>
     </ContentPage.BindingContext>
 
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <xct:ItemSelectedEventArgsConverter x:Key="ItemSelectedEventArgsConverter"/>
+        </ResourceDictionary>
+    </ContentPage.Resources>
 
     <ListView 
-        ItemSelected="ListView_ItemSelected"
-        ItemTapped="ListView_ItemTapped"
+        SelectedItem="{Binding SelectedCoffee, Mode=TwoWay}"
         CachingStrategy="RecycleElement"
         BackgroundColor="Transparent"
         ItemsSource="{Binding CoffeeGroups}"
@@ -28,14 +33,22 @@ xmlns="http://xamarin.com/schemas/2014/forms"
         RefreshCommand="{Binding RefreshCommand}"
         RefreshControlColor="red">
 
-        
-        
+
+        <ListView.Behaviors>
+            <xct:EventToCommandBehavior
+                EventName="ItemSelected"
+                Command="{Binding SelectedCommand}"
+                EventArgsConverter="{StaticResource ItemSelectedEventArgsConverter}"/>
+        </ListView.Behaviors>
         <ListView.ItemTemplate>
             <DataTemplate x:DataType="model:Coffee">
                 <ViewCell>
                     <ViewCell.ContextActions>
-                        <MenuItem Text="Favorite" Clicked="MenuItem_Clicked"/>
-                        <MenuItem Text="Delete"/>
+                        <MenuItem
+                            Command="{Binding Source={x:Reference CoffeePage}, Path=BindingContext.FavoriteCommand}"
+                            CommandParameter="{Binding .}"
+                            Text="Favorite" />
+                        <MenuItem IsDestructive="True" Text="Delete" />
                     </ViewCell.ContextActions>
                     <Grid Padding="10">
                         <Frame CornerRadius="20"
@@ -53,6 +66,12 @@ xmlns="http://xamarin.com/schemas/2014/forms"
                                         FontSize="Large"
                                         Text="{Binding Roaster}"/>
                                 </StackLayout>
+                                <Button Text="Favorite"
+                                        Command="{Binding 
+                                    Source={RelativeSource 
+                                    AncestorType={x:Type viewmodels:CoffeeEquipmentViewModel}},
+                                    Path=FavoriteCommand}"
+                                        CommandParameter="{Binding .}"/>
                             </StackLayout>
                         </Frame>
                     </Grid>
