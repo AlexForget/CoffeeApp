@@ -4,6 +4,7 @@ using MyCoffeeApp.Models;
 using MyCoffeeApp.Services;
 using System.Linq;
 using System.Threading.Tasks;
+using MyCoffeeApp.Views;
 using Xamarin.Forms;
 using Command = MvvmHelpers.Commands.Command;
 
@@ -13,6 +14,7 @@ namespace MyCoffeeApp.ViewModels {
         public AsyncCommand RefreshCommand { get; }
         public AsyncCommand AddCommand { get; }
         public AsyncCommand<Coffee> RemoveCommand { get; }
+        public AsyncCommand<Coffee> SelectedCommand { get; }
 
 
         public MyCoffeeViewModel() {
@@ -25,13 +27,25 @@ namespace MyCoffeeApp.ViewModels {
             RefreshCommand = new AsyncCommand(Refresh);
             AddCommand = new AsyncCommand(Add);
             RemoveCommand = new AsyncCommand<Coffee>(Remove);
+            SelectedCommand = new AsyncCommand<Coffee>(Selected);
         }
 
         async Task Add() {
-            var name = await App.Current.MainPage.DisplayPromptAsync("Name", "Name of coffee");
+            /*var name = await App.Current.MainPage.DisplayPromptAsync("Name", "Name of coffee");
             var roaster = await App.Current.MainPage.DisplayPromptAsync("Roaster", "Roaster of coffee");
             await CoffeeService.AddCoffee(name, roaster);
-            await Refresh();
+            await Refresh();*/
+
+            var route = $"{nameof(AddMyCoffeePage)}?Name=Motz";
+            await Shell.Current.GoToAsync(route);
+        }
+
+        async Task Selected(Coffee coffee) {
+            if (coffee == null)
+                return;
+
+            var route = $"{nameof(MyCoffeeDetailsPage)}?CoffeeId={coffee.Id}";
+            await Shell.Current.GoToAsync(route);
         }
 
         async Task Remove(Coffee coffee) {

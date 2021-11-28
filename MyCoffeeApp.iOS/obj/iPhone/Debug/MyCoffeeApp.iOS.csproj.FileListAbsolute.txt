@@ -58,3 +58,12 @@ C:\Users\alexa\Documents\ProjetC#\Xamarin\CoffeeApp\MyCoffeeApp.iOS\obj\iPhone\D
 C:\Users\alexa\Documents\ProjetC#\Xamarin\CoffeeApp\MyCoffeeApp.iOS\obj\iPhone\Debug\MyCoffeeApp.iOS.csproj.CopyComplete
 C:\Users\alexa\Documents\ProjetC#\Xamarin\CoffeeApp\MyCoffeeApp.iOS\obj\iPhone\Debug\MyCoffeeApp.iOS.exe
 C:\Users\alexa\Documents\ProjetC#\Xamarin\CoffeeApp\MyCoffeeApp.iOS\obj\iPhone\Debug\MyCoffeeApp.iOS.pdb
+C:\Users\alexa\Documents\ProjetC#\Xamarin\CoffeeApp\MyCoffeeApp.iOS\bin\iPhone\Debug\SQLite-net.dll
+C:\Users\alexa\Documents\ProjetC#\Xamarin\CoffeeApp\MyCoffeeApp.iOS\bin\iPhone\Debug\SQLitePCLRaw.batteries_v2.dll
+C:\Users\alexa\Documents\ProjetC#\Xamarin\CoffeeApp\MyCoffeeApp.iOS\bin\iPhone\Debug\SQLitePCLRaw.nativelibrary.dll
+C:\Users\alexa\Documents\ProjetC#\Xamarin\CoffeeApp\MyCoffeeApp.iOS\bin\iPhone\Debug\SQLitePCLRaw.core.dll
+C:\Users\alexa\Documents\ProjetC#\Xamarin\CoffeeApp\MyCoffeeApp.iOS\bin\iPhone\Debug\SQLitePCLRaw.provider.dynamic_cdecl.dll
+C:\Users\alexa\Documents\ProjetC#\Xamarin\CoffeeApp\MyCoffeeApp.iOS\bin\iPhone\Debug\System.Buffers.dll
+C:\Users\alexa\Documents\ProjetC#\Xamarin\CoffeeApp\MyCoffeeApp.iOS\bin\iPhone\Debug\System.Memory.dll
+C:\Users\alexa\Documents\ProjetC#\Xamarin\CoffeeApp\MyCoffeeApp.iOS\bin\iPhone\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\alexa\Documents\ProjetC#\Xamarin\CoffeeApp\MyCoffeeApp.iOS\bin\iPhone\Debug\Xamarin.CommunityToolkit.dll

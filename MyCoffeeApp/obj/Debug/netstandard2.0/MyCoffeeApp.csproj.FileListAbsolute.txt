@@ -34,7 +34,6 @@ C:\Users\alexa\Documents\ProjetC#\Xamarin\CoffeeApp\MyCoffeeApp\bin\Debug\netsta
 C:\Users\alexa\Documents\ProjetC#\Xamarin\CoffeeApp\MyCoffeeApp\bin\Debug\netstandard2.0\MyCoffeeApp.dll
 C:\Users\alexa\Documents\ProjetC#\Xamarin\CoffeeApp\MyCoffeeApp\bin\Debug\netstandard2.0\ref\MyCoffeeApp.dll
 C:\Users\alexa\Documents\ProjetC#\Xamarin\CoffeeApp\MyCoffeeApp\bin\Debug\netstandard2.0\MyCoffeeApp.pdb
-C:\Users\alexa\Documents\ProjetC#\Xamarin\CoffeeApp\MyCoffeeApp\obj\Debug\netstandard2.0\MyCoffeeApp.csproj.AssemblyReference.cache
 C:\Users\alexa\Documents\ProjetC#\Xamarin\CoffeeApp\MyCoffeeApp\obj\Debug\netstandard2.0\MyCoffeeApp.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\alexa\Documents\ProjetC#\Xamarin\CoffeeApp\MyCoffeeApp\obj\Debug\netstandard2.0\App.xaml.g.cs
 C:\Users\alexa\Documents\ProjetC#\Xamarin\CoffeeApp\MyCoffeeApp\obj\Debug\netstandard2.0\AppShell.xaml.g.cs
@@ -48,3 +47,6 @@ C:\Users\alexa\Documents\ProjetC#\Xamarin\CoffeeApp\MyCoffeeApp\obj\Debug\netsta
 C:\Users\alexa\Documents\ProjetC#\Xamarin\CoffeeApp\MyCoffeeApp\obj\Debug\netstandard2.0\MyCoffeeApp.pdb
 C:\Users\alexa\Documents\ProjetC#\Xamarin\CoffeeApp\MyCoffeeApp\obj\Debug\netstandard2.0\Views\CoffeeEquipmentCVPage.xaml.g.cs
 C:\Users\alexa\Documents\ProjetC#\Xamarin\CoffeeApp\MyCoffeeApp\obj\Debug\netstandard2.0\Views\MyStoredCoffeePage.xaml.g.cs
+C:\Users\alexa\Documents\ProjetC#\Xamarin\CoffeeApp\MyCoffeeApp\obj\Debug\netstandard2.0\Views\AddMyCoffeePage.xaml.g.cs
+C:\Users\alexa\Documents\ProjetC#\Xamarin\CoffeeApp\MyCoffeeApp\obj\Debug\netstandard2.0\Views\MyCoffeeDetailsPage.xaml.g.cs
+C:\Users\alexa\Documents\ProjetC#\Xamarin\CoffeeApp\MyCoffeeApp\obj\Debug\netstandard2.0\MyCoffeeApp.csproj.AssemblyReference.cache
