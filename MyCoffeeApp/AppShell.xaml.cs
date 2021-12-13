@@ -13,6 +13,8 @@ namespace MyCoffeeApp
             Routing.RegisterRoute(nameof(AddMyCoffeePage), typeof(AddMyCoffeePage));
 
             Routing.RegisterRoute(nameof(MyCoffeeDetailsPage), typeof(MyCoffeeDetailsPage));
+
+            Routing.RegisterRoute(nameof(RegistrationPage), typeof(RegistrationPage));
         }
     }
 }
